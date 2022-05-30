@@ -3,3 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* stile header top */
+.header-top{
+    height: 80px;
+    padding: 15px 0px;
+}
+
+.container-header-top{
+    width: 65%;
+    height: 90%;
+    margin: 0px auto;
+    display: flex;
+}
+
+/* larghezza sezione logo e login*/
+.logo, .login{
+    width: 20%;
+}
+
+/* centratura sezione link*/
+.link{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    justify-content: flex-end;
+}
+
+.logo, .login, .link{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* stile lista link*/
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 0px 10px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* regole debug*/
+
+.debug .header-top{
+    background-color: #ADD8E6;
+}
+
+.debug .container-header-top{
+    background-color: #DAA520;
+}
+
+.logo, .login, .link{
+    border: 3px dashed black;
+}
+
+li a{
+    color: black;
+}
+/* fine regole debug*/
