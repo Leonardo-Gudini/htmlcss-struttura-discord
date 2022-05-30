@@ -73,7 +73,44 @@ li a{
     height: 400px;
 }
 
-/**/
+/* stile sezione main*/
+
+main .section-white-bg, main .section-gray-bg{
+    height: 600px;
+    
+}
+
+.section-white-bg, .section-gray-bg, .last-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section{
+    height: 80%;
+    width: 65%;
+    display: flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.img{
+    width: 60%;
+}
+
+.txt{
+    width: 40%;
+}
+
+.last-section{
+    height: 1000px;
+    background-color: #D3D3D3;
+    display: flex;
+}
+
+
 
 
 
@@ -108,5 +145,26 @@ li a{
 .debug .container-header-bottom{
     border: 2px dashed black;
     background-color: #EE82ED;
+}
+
+.debug .container-section .img{
+    background-color: #1F90FF;
+}
+
+.debug .container-section .txt{
+    background-color: #FFC0CA;
+}
+
+.img, .txt{
+    border: 2px dashed black;
+}
+
+.section-gray-bg{
+    background-color: #D3D3D3;
+}
+
+.container-green{
+    background-color: #228B23;
+    border: 2px dashed black;
 }
 /* fine regole debug*/
