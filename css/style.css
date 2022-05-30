@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
-
+header{
+    height: 600px;
+}
 /* stile header top */
 .header-top{
-    height: 80px;
     padding: 15px 0px;
 }
 
 .container-header-top{
     width: 65%;
-    height: 90%;
+    height: 60px;
     margin: 0px auto;
     display: flex;
 }
@@ -58,7 +59,21 @@ li a{
 }
 
 
+/* header bottom*/
 
+.header-bottom{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header-bottom{
+    width: 50%;
+    height: 400px;
+}
+
+/**/
 
 
 
@@ -70,7 +85,7 @@ li a{
 
 /* regole debug*/
 
-.debug .header-top{
+.debug header{
     background-color: #ADD8E6;
 }
 
@@ -84,5 +99,14 @@ li a{
 
 li a{
     color: black;
+}
+
+.debug .header-bottom{
+    background-color: #00008B;
+}
+
+.debug .container-header-bottom{
+    border: 2px dashed black;
+    background-color: #EE82ED;
 }
 /* fine regole debug*/
