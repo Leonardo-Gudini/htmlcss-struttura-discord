@@ -136,6 +136,14 @@ footer{
     align-items: center;
 }
 
+.section-footer-coral{
+    width: 30%;
+}
+
+.section-footer-blue{
+    width: calc(70% / 4);
+}
+
 
 
 
